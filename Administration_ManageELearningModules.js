@@ -29,7 +29,11 @@ document.onkeypress = function (evt) {
         document.getElementById('grdEntities_DXPEForm_efnew_btnUploadAndSave').click();
         break;
       case 27: // esc activates the "exit" button
-        document.getElementById('grdEntities_DXPEForm_HCB-1').click();
+        if ( document.getElementById('grdEntities_DXPEForm_HCB-1') == null){
+           aspxGVScheduleCommand('grdEntities',['UpdateEdit'],0);
+        }else{
+          document.getElementById('grdEntities_DXPEForm_HCB-1').click();
+        }
         break;
       default:
         console.log(charCode + '/' + charStr + ' is unbound.');
