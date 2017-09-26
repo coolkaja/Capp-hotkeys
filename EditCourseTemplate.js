@@ -62,7 +62,7 @@ document.onkeypress = function (evt) {
         document.getElementById('dxtcDetailTabs_T12T').click();
         break;
       default:
-        //console.log(charCode + '/' + charStr + 'is unbound.');
+        console.log(charCode + '/' + charStr + ' is unbound.');
         break;
     }
   }
