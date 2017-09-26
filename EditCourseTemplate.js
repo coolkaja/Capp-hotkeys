@@ -69,6 +69,7 @@ document.onkeypress = function (evt) {
         break;
       case 116: // t opens "terug" 
         document.getElementById('ContentPlaceHolder_ucBack_ButtonBack').click();
+        document.getElementById('ContentPlaceHolder_ucEditModeBackButton_ButtonBack').click();
         break;
       default:
         console.log(charCode + '/' + charStr + ' is unbound.');
