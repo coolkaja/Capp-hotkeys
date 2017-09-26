@@ -6,7 +6,7 @@ statusImage.style.left = "4px";
 statusImage.style.bottom = "4px";
 document.getElementById("body").appendChild(statusImage);
 
-function exists(){
+function gitLoaded(){
   return true;
 }
 
