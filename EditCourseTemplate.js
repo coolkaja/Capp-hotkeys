@@ -61,6 +61,9 @@ document.onkeypress = function (evt) {
       case 64: // @ opens "Evaluaties" tab
         document.getElementById('dxtcDetailTabs_T12T').click();
         break;
+      case 98: // b opens "bewerken"
+        document.getElementById('btnEditDescription').click();
+        break;
       default:
         console.log(charCode + '/' + charStr + ' is unbound.');
         break;
