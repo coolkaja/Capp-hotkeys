@@ -67,6 +67,9 @@ document.onkeypress = function (evt) {
       case 115: // s opens "opslaan" on the description tab
         document.getElementById('btnSaveDescriptionBottom').click();
         break;
+      case 116: // t opens "terug" 
+        document.getElementById('ContentPlaceHolder_ucBack_ButtonBack').click();
+        break;
       default:
         console.log(charCode + '/' + charStr + ' is unbound.');
         break;
