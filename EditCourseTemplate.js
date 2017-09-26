@@ -6,6 +6,10 @@ statusImage.style.left = "4px";
 statusImage.style.bottom = "4px";
 document.getElementById("body").appendChild(statusImage);
 
+function exists(){
+  return true;
+}
+
 var runScript = true;
 document.onkeypress = function (evt) {
   evt = evt || window.event;
