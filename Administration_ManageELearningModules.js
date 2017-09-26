@@ -29,7 +29,7 @@ document.onkeypress = function (evt) {
         document.getElementById('grdEntities_DXPEForm_efnew_btnUploadAndSave').click();
         break;
       case 27: // esc activates the "exit" button
-        document.getElementById('dxWeb_pcCloseButton_Office2010Blue').click();
+        document.getElementById('grdEntities_DXPEForm_HCB-1').click();
         break;
       default:
         console.log(charCode + '/' + charStr + ' is unbound.');
