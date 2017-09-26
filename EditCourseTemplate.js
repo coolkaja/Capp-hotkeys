@@ -68,8 +68,10 @@ document.onkeypress = function (evt) {
         document.getElementById('btnSaveDescriptionBottom').click();
         break;
       case 116: // t opens "terug" 
+        if (document.getElementById('ContentPlaceHolder_ucBack_ButtonBack') == null){
+          document.getElementById('ContentPlaceHolder_ucEditModeBackButton_ButtonBack').click();
+        }
         document.getElementById('ContentPlaceHolder_ucBack_ButtonBack').click();
-        document.getElementById('ContentPlaceHolder_ucEditModeBackButton_ButtonBack').click();
         break;
       default:
         console.log(charCode + '/' + charStr + ' is unbound.');
