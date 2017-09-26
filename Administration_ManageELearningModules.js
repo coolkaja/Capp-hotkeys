@@ -22,6 +22,12 @@ document.onkeypress = function (evt) {
       case 49: // 1 activates the "toevoegen" button
         document.getElementById('btnAddTop').click();
         break;
+      case 98: // b activates the "bladeren" button
+        document.getElementById('grdEntities_DXPEForm_efnew_ulcModuleFile_TextBox0_FakeInput').click();
+        break;
+      case 115: // s activates the "opslaan" button
+        document.getElementById('grdEntities_DXPEForm_efnew_btnUploadAndSave').click();
+        break;
       default:
         console.log(charCode + '/' + charStr + ' is unbound.');
         break;
