@@ -1,4 +1,5 @@
-document.getElementById("statusImage").src = "https://i.imgur.com/CCjMY9U.png";
+statusImage = document.getElementById("statusImage");
+statusImage.src = "https://i.imgur.com/CCjMY9U.png";
 
 var runScript = true;
 document.onkeypress = function (evt) {
