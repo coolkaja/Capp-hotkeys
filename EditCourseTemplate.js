@@ -1,14 +1,4 @@
-//icon source: https://imgur.com/a/J6bTP
-var statusImage = document.createElement("img");
 statusImage.src = "https://i.imgur.com/CCjMY9U.png";
-statusImage.style.position = "fixed";
-statusImage.style.left = "4px";
-statusImage.style.bottom = "4px";
-document.getElementById("body").appendChild(statusImage);
-
-function gitLoaded(){
-  return true;
-}
 
 var runScript = true;
 document.onkeypress = function (evt) {
