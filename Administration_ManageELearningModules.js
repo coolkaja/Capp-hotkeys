@@ -28,6 +28,9 @@ document.onkeypress = function (evt) {
       case 115: // s activates the "opslaan" button
         document.getElementById('grdEntities_DXPEForm_efnew_btnUploadAndSave').click();
         break;
+      case 27: // esc activates the "exit" button
+        document.getElementById('dxWeb_pcCloseButton_Office2010Blue').click();
+        break;
       default:
         console.log(charCode + '/' + charStr + ' is unbound.');
         break;
