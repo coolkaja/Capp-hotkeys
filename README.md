@@ -5,11 +5,11 @@ Hotkeys for capp
 1 activates the "bewerken" button.  
 2 activates the personen koppelen button.  
 3 activates the second "bewerken" button.  
+t goes back three pages
 
 # AdminQualityProfilesEdit
 1 activates the "bewerken" button.  
-2 activates the "opslaan" button.  
-t goes back three pages.  
+2 activates the "opslaan" button.   
 
 # AdministrationManageCourseTemplates
 1 activates the "zoeken" button.  
