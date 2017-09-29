@@ -31,7 +31,6 @@ document.onkeypress = function (evt) {
       default:
         console.log(charCode + '/' + charStr + ' is unbound.');
         break;
-        
     }
   }
 };
