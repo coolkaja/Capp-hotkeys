@@ -25,7 +25,7 @@ document.onkeypress = function (evt) {
       case 50: // 2 activates the "opslaan" button
         location.assign(document.getElementsByClassName("Button Button--primary").item(1).href);
         break;
-      case 116: // t goes back three bages
+      case 116: // t goes back three pages
         window.history.go(-3);
         break;  
       default:
