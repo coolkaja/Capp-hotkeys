@@ -12,8 +12,8 @@ Hotkeys for capp
 t goes back three pages.  
 
 # AdministrationManageCourseTemplates
-1 activates the "search" button.  
-2 activates the "more search options" button.  
+1 activates the "zoeken" button.  
+2 activates the "meer" button.  
 3 adds a new sjabloon.  
 
 # AdministrationManageELearningModules
