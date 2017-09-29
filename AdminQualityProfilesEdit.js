@@ -19,10 +19,10 @@ document.onkeypress = function (evt) {
   }
   if (runScript) {
     switch (charCode) {
-      case 49: // 1 activates the "bewerken" button.
+      case 37: // 1 activates the "bewerken" button.
         location.assign(document.getElementsByClassName("Button Button--default Button--small").item(0).href);
         break;
-      case 50: // 2 activates the "opslaan" button
+      case 39: // 2 activates the "opslaan" button
         location.assign(document.getElementsByClassName("Button Button--primary").item(1).href);
         break;
       case 116: // t goes back three pages
