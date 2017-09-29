@@ -28,6 +28,8 @@ document.onkeypress = function (evt) {
       case 51: // 3 activates the second "bewerken" button.
         location.assign(document.getElementsByClassName("Button Button--default Button--small Button--group").item(2).href);
         break;
+      case 116: // t goes back three pages
+        window.history.go(-3);
       default:
         console.log(charCode + '/' + charStr + ' is unbound.');
         break;
