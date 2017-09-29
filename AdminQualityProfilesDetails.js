@@ -19,14 +19,14 @@ document.onkeypress = function (evt) {
   }
   if (runScript) {
     switch (charCode) {
-      case 49: // 1 activates the search button
-        document.getElementById('ContentPlaceHolder_ucSearchBox_btnSearch').click();
+      case 49: // 1 activates the "bewerken" button.
+        location.assign(document.getElementsByClassName("Button Button--default Button--small Button--group").item(0).href);
         break;
-      case 50: // 2 activates the more search options button
-        document.getElementById('ContentPlaceHolder_ucSearchBox_pnlMoreSearchOptions').click();
+      case 50: // 2 activates the personen koppelen button
+        location.assign(document.getElementsByClassName("Button Button--default Button--small Button--group").item(1).href);
         break;
-      case 51: // 3 adds a new sjabloon
-        document.getElementById('btnAddTop').click();
+      case 51: // 3 activates the second "bewerken" button.
+        location.assign(document.getElementsByClassName("Button Button--default Button--small Button--group").item(2).href);
         break;
       default:
         console.log(charCode + '/' + charStr + ' is unbound.');
