@@ -8,8 +8,9 @@ Hotkeys for capp
 t goes back three pages
 
 # AdminQualityProfilesEdit
-1 activates the "bewerken" button.  
-2 activates the "opslaan" button.   
+Left arrow/ % activates the "bewerken" button.  
+right arrow/ ' activates the "opslaan" button.   
+t goes back three pages.  
 
 # AdministrationManageCourseTemplates
 1 activates the "zoeken" button.  
