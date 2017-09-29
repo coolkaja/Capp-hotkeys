@@ -25,7 +25,7 @@ document.onkeypress = function (evt) {
       case 35: // # opens "Kenmerken" tab
         document.getElementById('dxtcDetailTabs_T13T').click();
         break;
-      case 36: // # opens "Materiaal" tab
+      case 36: // $ opens "Materiaal" tab
         document.getElementById('dxtcDetailTabs_T14T').click();
         break;
       case 49: // 1 opens "planning" tab
