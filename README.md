@@ -14,6 +14,7 @@ esc activates the "exit" button.
 
 # AdministrationManageExternalCertificateCodes
 1 activates the "toevoegen" button.
+2 activates the "opslaan" button.
 
 # AdminQualityProfilesDetails
 1 activates the "bewerken" button.  
