@@ -22,6 +22,9 @@ document.onkeypress = function (evt) {
       case 49: // 1 activates the "toevoegen" button.
         document.getElementById('addButtonTopgrdExternalCertificateCodeViewDecorator').click();
         break;
+        case 50: // 2 activates the "opslaan" button.
+        document.getElementsByClassName("dxgvCommandColumnItem_Office2010Blue dxgv__cci")[0].click()
+        break;
       default:
         console.log(charCode + '/' + charStr + ' is unbound.');
         break;
