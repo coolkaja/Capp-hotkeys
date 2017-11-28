@@ -21,6 +21,7 @@ document.onkeypress = function (evt) {
     switch (charCode) {
       case 49: // 1 activates the "bewerken" button.
         location.assign(document.getElementsByClassName("Button Button--default Button--small Button--group").item(0).href);
+        //addButtonTopgrdExternalCertificateCodeViewDecorator
         break;
       default:
         console.log(charCode + '/' + charStr + ' is unbound.');
