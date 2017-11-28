@@ -12,6 +12,9 @@ b activates the "bladeren" button.
 s activates the "opslaan" button.  
 esc activates the "exit" button.
 
+# AdministrationManageExternalCertificateCodes
+1 activates the "toevoegen" button.
+
 # AdminQualityProfilesDetails
 1 activates the "bewerken" button.  
 2 activates the personen koppelen button.  
@@ -21,7 +24,7 @@ t goes back three pages
 # AdminQualityProfilesEdit
 Left arrow/ % activates the "bewerken" button.  
 right arrow/ ' activates the "opslaan" button.   
-t goes back three pages.  
+t goes back three pages.
 
 # EditCourseTemplate
 ! opens "Evaluaties" tab.  
