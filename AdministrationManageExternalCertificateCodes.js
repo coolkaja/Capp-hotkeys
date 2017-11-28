@@ -19,9 +19,8 @@ document.onkeypress = function (evt) {
   }
   if (runScript) {
     switch (charCode) {
-      case 49: // 1 activates the "bewerken" button.
-        location.assign(document.getElementsByClassName("Button Button--default Button--small Button--group").item(0).href);
-        //addButtonTopgrdExternalCertificateCodeViewDecorator
+      case 49: // 1 activates the "toevoegen" button.
+        document.getElementById('addButtonTopgrdExternalCertificateCodeViewDecorator').click();
         break;
       default:
         console.log(charCode + '/' + charStr + ' is unbound.');
