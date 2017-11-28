@@ -1,6 +1,17 @@
 # Capp-hotkeys
 Hotkeys for capp
 
+# AdministrationManageCourseTemplates
+1 activates the "zoeken" button.  
+2 activates the "meer" button.  
+3 adds a new sjabloon.  
+
+# AdministrationManageELearningModules
+1 activates the "toevoegen" button.  
+b activates the "bladeren" button.  
+s activates the "opslaan" button.  
+esc activates the "exit" button.
+
 # AdminQualityProfilesDetails
 1 activates the "bewerken" button.  
 2 activates the personen koppelen button.  
@@ -11,17 +22,6 @@ t goes back three pages
 Left arrow/ % activates the "bewerken" button.  
 right arrow/ ' activates the "opslaan" button.   
 t goes back three pages.  
-
-# AdministrationManageCourseTemplates
-1 activates the "zoeken" button.  
-2 activates the "meer" button.  
-3 adds a new sjabloon.  
-
-# AdministrationManageELearningModules
-1 activates the "toevoegen" button.  
-b activates the "bladeren" button.  
-s activates the "opslaan" button.  
-esc activates the "exit" button.  
 
 # EditCourseTemplate
 ! opens "Evaluaties" tab.  
@@ -40,5 +40,5 @@ $ opens "Materiaal" tab.
 @ opens "Evaluaties" tab.  
 b opens "bewerken" on the description tab.  
 s opens "opslaan" on the description tab.  
-t opens "terug".  
+t opens "terug".
 
