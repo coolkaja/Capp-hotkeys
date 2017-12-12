@@ -23,7 +23,7 @@ document.onkeypress = function (evt) {
         document.getElementById('btnAddBottom').click();
         break;
       case 50: // 2 activates the "bladeren" button
-        document.getElementById('grdEntities_dxdt1_grdCertificateClauseSpecs_1_col17').click();
+        dxgvCertificateClauseSpecs.AddNewRow();
         break;
       default:
         console.log(charCode + '/' + charStr + ' is unbound.');
