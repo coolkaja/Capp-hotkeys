@@ -19,10 +19,10 @@ document.onkeypress = function (evt) {
   }
   if (runScript) {
     switch (charCode) {
-      case 49: // 1 activates the "toevoegen" button
+      case 50: // 2 activates the "toevoegen" button
         document.getElementById('btnAddBottom').click();
         break;
-      case 50: // 2 activates the "bladeren" button
+      case 51: // 3 activates the "bladeren" button
         dxgvCertificateClauseSpecs.AddNewRow();
         break;
       default:
